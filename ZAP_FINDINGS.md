@@ -1,4 +1,4 @@
-| Code   | Issue                                               | Risk Level | Affected URL(s)                                      | Why It Matters (What It Prevents) |
+| Code   | Issue                                               | Risk Level | Affected                                      | Why It Matters |
 |--------|-----------------------------------------------------------|------------|------------------------------------------------------|------------------------------------|
 | 10020  | Missing Anti-clickjacking Header                          | Medium     | http://localhost:5000                                | Prevents **clickjacking attacks** where attackers embed your site in an iframe and trick users into clicking hidden elements. |
 | 10021  | X-Content-Type-Options Header Missing                     | Low        | http://localhost:5000                                | Prevents **MIME-sniffing**, which can cause the browser to interpret files as a different content type, enabling XSS. |
