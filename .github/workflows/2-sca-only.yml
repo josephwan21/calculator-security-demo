@@ -38,7 +38,7 @@ jobs:
         uses: dependency-check/Dependency-Check_Action@main
         id: depcheck
         with:
-          project: 'calculator-app'
+          project: 'calculator-security-demo'
           path: '.'
           format: 'ALL'  # Generate HTML, JSON, CSV, XML
           out: 'reports'
