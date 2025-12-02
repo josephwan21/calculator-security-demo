@@ -57,8 +57,10 @@ WARN-NEW: Sec-Fetch-Dest Header is Missing [90005] x 12
 None
 
 ## SAST Results (CodeQL)
-- Total issues: X
-- By type: [breakdown]
+- Total issues: 1
+- By type: Vulnerability Alerts - Code Scanning Alert
+
+Running a Flask application with debug mode enabled may allow an attacker to gain access through the Werkzeug debugger.
 
 ## Recommendations
-[Based on findings, what should be prioritized?]
+Ensure that Flask applications that are run in a production environment have debugging disabled.
